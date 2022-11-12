@@ -1,0 +1,116 @@
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+  }
+  
+  body {
+    background-color: #f6f6f6;
+  }
+   
+  .cont, h1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .back {
+    background-color: #f4eddd; 
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+  }
+  
+  .change {
+    background-color: #E26868;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  h3, h4 {
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+  }
+  
+  button {
+    margin: 10px;
+  }
+  
+  h2{
+    font-family: 'Island Moments', cursive;
+    color: #472D2D;
+    display: flex;
+    justify-content: center;
+  }
+  nav{
+    background-color: #835151;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+  .link{
+    padding: 10px 40px;
+    text-decoration: none;
+    color: #472D2D;
+    text-transform: uppercase;
+    color: #F08FC0;
+   
+  }
+ .first{
+  display: flex;
+  justify-content: left;
+  margin-top: 40px;
+  
+ }
+ .second{
+  display: flex;
+  flex-direction: column;
+ margin: 20px;
+ margin-top: auto;
+ padding: 20px;
+ background-color: #FAEBE0;
+ }
+ .container{
+  background-color: #FFEACA;
+ }
+ .parent{
+  background-color: #FFBCBC;
+ }
+ .pap{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+ }
+ .con{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 10px;
+ }
+ .third{
+  display: flex;
+  justify-content: center;
+ }
+ .mac{
+  display: flex;
+  justify-content: center;
+ }
+ .btn{
+  display: inline-block;
+  cursor: pointer;
+  border: 2px solid transparent;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #E26868;
+  text-transform: uppercase;
+  align-self: center;
+  padding: 10px;
+  margin: 30px;
+ }
